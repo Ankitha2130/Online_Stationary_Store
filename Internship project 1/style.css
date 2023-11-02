@@ -1,0 +1,222 @@
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image: url(Images/background.jpg);
+	background-position: center;
+	background-size: cover;
+}
+nav{
+	display: flex;
+	padding: 1% 1%;
+	justify-content: space-between;
+	align-items: center;
+}
+nav img{
+	width: 100px;
+}
+.navigate-links{
+	flex: 1;
+	text-align: right;
+}
+.slogan{
+	text-align: right;
+	font-style: italic;
+	font-size: 40px;
+	text-decoration: none;
+	padding: 5px 5px 2px 5px ;
+	float: right;
+	color: rgb(255,0,0);
+}
+.navigate-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 5px 5px 2px 5px;
+	position: relative;
+	font-size: 25px;
+}
+.navigate-links ul li a{
+	text-decoration: none;
+}
+.navigate-links ul li::after{
+	content:'';
+	width: 0%;
+	height: 2px;
+	background: green;
+	display: block;
+	margin: auto;
+	transition: 0.25s;
+	font: bolder;
+}
+.navigate-links ul li:hover::after{
+	width: 100%;
+}
+.caption{
+	width: 90%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.caption h1{
+	font-size: 65px;
+}
+.caption p{
+	font-size: 20px;
+}
+.visit{
+	display: inline-block;
+	text-decoration: none;
+	border: 1px solid black;
+	padding: 12px 34px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.visit:hover{
+	border: 1px solid blue;
+	background: red;
+	transition: 2s;
+}
+.services{
+	height: 1250px;
+	width: 100%;
+	padding-top: 50px;
+	margin: auto;
+	background-color: lightyellow;
+}
+.main{
+	width: 100%;
+	height:100vh;
+}
+.row{
+	height:200px;
+	width: 100%;
+	padding-bottom: 100px;
+}
+.col-1{
+	height: 100%;
+	width: 25%;
+	float: left;
+}
+.col-1 img{
+	height: 150px;
+	width: 150px;
+	padding-left: 50px;
+}
+.col-1 h4{
+	text-align: left;
+	padding-left: 50px;
+}
+.col-1 p{
+	text-align: left;
+	padding-left: 50px;
+}
+.About{
+	width: 100%;
+	height:850px;
+}
+.About img{
+	width: 50%;
+	height: 500px;
+}
+.writing{
+	width: 50%;
+	height: 500px;
+	float: right;
+	background-color: rosybrown;
+}
+.writing h3{
+	text-align: center;
+	padding: 10px 30px;
+	padding-top: 25px;
+	font-style: italic;
+	font-size: 30px;
+}
+.new{
+	font-size: 50px;
+}
+.writing p{
+	text-align: center;
+	padding: 5px 30px;
+}
+.writing img{
+	width: 100px;
+	height: 100px;
+	padding-left:320px;
+
+}
+.writing h1{
+	text-align: center;
+	font-size: 50px;
+}
+.content{
+	width: 50%;
+	height: 225px;
+	float: left;
+}
+.content h4{
+	font-size: 30px;
+}
+.content p{
+	padding-right: 20px;
+}
+.query{
+	text-align: center;
+	font-size: 30px; 
+	padding-bottom: 10px;
+}
+.contact-link{
+	font-size: 30px;
+	color: blue;
+	text-decoration: none;
+}
+.contact-link:hover{
+	color: black;
+	cursor: pointer;
+	transition: 2s;
+	text-decoration: underline;
+}
+.contact{
+	width: 100%;
+	height: 400px;
+}
+.contact-1{
+	width: 40%;
+	height: 100%;
+	float: left;
+	padding-left: 80px;
+}
+.contact-placing{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.contact-placing-1{
+	width: 50%;
+	height: 100%;
+	float: left;
+	padding-top: 20px;
+}
+.contact-placing-2{
+	width: 50%;
+	height: 100%;
+	float: left;
+	padding-top: 20px;
+}
+.contact-1 h2{
+	text-align: center;
+	padding-top: 20px;
+}
+.contact-1 form{
+	text-align: center;
+	}
+.contact-2{
+	height: 80%;
+	width: 50%;
+	background-color: lightgrey;
+}
+.Thank{
+	text-align: center;
+	font-size: 50px;
+	font-style: italic;
+}
